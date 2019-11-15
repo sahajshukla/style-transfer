@@ -1,0 +1,2 @@
+# style-transfer
+The idea of this code is to apply the style scheme of one image and apply it on another image. This code is suggested in pytorch documentation too. The main idea in style transfer is to minimize the loss function by changing the input image instead of the weights. We use gram matrix to find the correlative associations in one image and apply them to another image. This helps us understand the exact correlations between different colors in the style image and helps implement the same scheme on the base image.  
